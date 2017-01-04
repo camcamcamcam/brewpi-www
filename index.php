@@ -63,7 +63,7 @@ function prepareJSON($input) {
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title>BrewPi reporting for duty!</title>
+		<title>The BIM - BrewPi</title>
 		<link type="text/css" href="css/redmond/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
 		<link type="text/css" href="css/style.css" rel="stylesheet"/>
 		<link rel="apple-touch-icon" href="touch-icon-iphone.png">
