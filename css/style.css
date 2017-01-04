@@ -9,8 +9,9 @@ body {
 	background: #fff;
 	color: #000;
 	font-family: Verdana, Arial, sans-serif;
-	width:980px;
+	width:100%;
     font-size: 12px;
+	margin: 1%;
 }
 
 #top-bar button.script-status{
@@ -82,20 +83,21 @@ button#maintenance{
 }
 
 #beer-panel{
-	width: 980px;
+	width: 98%;
     height: 525px;
 	margin-bottom: 10px;
     float:left;
 }
 
 #top-bar{
-	width: 968px;
-	margin: 5px;
-    float:left;
+	width: 99%;
+	margin: 0.5%;
+	float:left;
+	position: relative;
 }
 
 #control-panel{
-	width: 976px;
+	width: calc(98% - .4em);
     min-height: 390px;
     float: left;
 }
@@ -127,7 +129,8 @@ button#maintenance{
 	border: #555 solid 2px;
 	overflow:auto;
 	width:240px;
-	margin-left: 330px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 40px;
 }
 
@@ -606,10 +609,12 @@ button#maintenance{
 	float: left;
 	clear: none;
 	display: block;
-	margin-left: 4px;
 	margin-top: 10px;
 	width: 450px;
 	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
 }
 
 #logo-container div#beer-name-container{
@@ -686,6 +691,7 @@ span.dialog-result-message{
 div.beer-chart,
 div.chart-container{
     float: left;
+	width: 100%;
 }
 
 div.chart-error{
