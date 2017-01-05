@@ -34,20 +34,28 @@
 	</div>
 </ul>
 <div id="profile-control">
-	<div id="controls">
-		<button id="load-controls">Open</button>
-		<button id="new-controls">New</button>
-		<button id="edit-controls">Edit</button>
-		<button id="saveas-controls">Save As</button>
-		<button id="refresh-controls">Refresh</button>
-		<button id="help-profile" class="profile-help">Help</button>
+	<div class="section group">
+		<div class="col span_2_of_12">
+			<div id="controls">
+				<button id="load-controls">Open</button>
+				<button id="new-controls">New</button>
+				<button id="edit-controls">Edit</button>
+				<button id="saveas-controls">Save As</button>
+				<button id="refresh-controls">Refresh</button>
+				<button id="help-profile" class="profile-help">Help</button>
+			</div>
+		</div>
+		<div class="col span_7_of_12">
+			<div id="profileChartDiv"></div>
+		</div>
+		<div class="col span_3_of_12">
+			<div id="profileNameDate">
+				<div><span class="profileTableLabel">Profile Name:</span><span class="profileTableValue" id="profileTableName"></span></div>
+				<div><span class="profileTableLabel">Start Date:</span><span class="profileTableValue" id="profileTableStartDate"></span></div>
+			</div>
+			<div id="profileTableDiv"></div>
+		</div>
 	</div>
-	<div id="profileNameDate">
-		<div><span class="profileTableLabel">Profile Name:</span><span class="profileTableValue" id="profileTableName"></span></div>
-		<div><span class="profileTableLabel">Start Date:</span><span class="profileTableValue" id="profileTableStartDate"></span></div>
-	</div>
-	<div id="profileChartDiv"></div>
-	<div id="profileTableDiv"></div>
 	<div id="profileSelectDiv">
 		<div id="profileSelectChartDiv"><span class="chart-placeholder">Click a profile to load a preview here</span></div>
 		<ol id="profileSelect"></ol>
