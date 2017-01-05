@@ -26,7 +26,7 @@
         </span>
 	</div>
 	<div id="logo-container">
-		<img src="brewpi_logo.png">
+		<img src="brewpi_logo.png" width="200" height="55">
 		<div id=beer-name-container>
 			<span>Fermenting: </span><a href='#' id="beer-name"><?php echo urldecode($beerName);?></a>
 			<span class="data-logging-state"></span>
