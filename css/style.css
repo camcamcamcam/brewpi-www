@@ -54,9 +54,11 @@ button#maintenance{
 
 
 #status-message{
-	width: 400px;
+	width: calc(100% - 1.8em);
+	max-width: 400px;
 	padding: 0.5em 0.8em;
 	float: right;
+	margin: auto;
 }
 
 #status-message p{
@@ -84,7 +86,7 @@ button#maintenance{
 
 #beer-panel{
 	width: 98%;
-    height: 525px;
+    height: auto;
 	margin-bottom: 10px;
     float:left;
 }
@@ -691,6 +693,10 @@ div.chart-container{
 	width: 100%;
 }
 
+div.chart-container > div {
+	height: auto;
+}
+
 div.chart-error{
     text-align: center;
 }
@@ -756,14 +762,14 @@ button.chart-error-refresh{
 #profileSelect li { margin: 3px; padding: 0.4em; height: 18px; }
 #profileSelectChartDiv{ width: 450px; height: 280px; float: left; margin: 20px 0;}
 
-#profileNameDate { width: 375px; float:right; }
+#profileNameDate { width: 100%; float:right; }
 #profileNameDate div { float:left; clear: left; width:100%;}
 #profileNameDate .profileTableLabel { display: block; float: left; font-weight: bold; margin-left: 5px}
 #profileNameDate .profileTableValue { display: block; float: right; margin-right:5px; }
 
-#profileChartDiv { width: 430px; height: 280px; float: left; }
+#profileChartDiv { width: calc(100% - 108px); height: 280px; float: left; }
 
-#profileTableDiv { width: 375px; height: 280px; float: right; overflow: auto; }
+#profileTableDiv { width: 100%; height: 280px; float: right; overflow: auto; }
 #profileTableDiv table {
     border-collapse:separate; border-spacing: 0;
 }
@@ -815,7 +821,14 @@ pre.json {outline: 1px solid #ccc; padding: 5px; margin: 5px;
 	#logo-container {
 		margin-top: 0;
 	}
-	#status-buttons {
+	#status-message {
+		float: none;
+		max-width: 899px
+	}
+	#profileChartDiv {
+		width: 100%;
+	}
+	#status-buttons, #controls, #status-text {
 		display: none;
 	}
 }

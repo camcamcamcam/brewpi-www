@@ -22,7 +22,7 @@ BR.crystal { clear:both; }
     float: right;
     margin: 0 1% 0 0;
     padding: 0;
-    width: 15%;
+    width: 98%;
 }
 .beer-chart-buttons button {
     height:26px;
@@ -103,6 +103,7 @@ BR.crystal { clear:both; }
     width: 16px;
     height: 16px;
     float:left;
+    text-align: center;
 }
 .toggleAnnotations.inactive{
     border: 1px solid lightgrey;
