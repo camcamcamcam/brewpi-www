@@ -401,7 +401,7 @@ function drawBeerChart(beerToDraw, div){
             }
         );
         beerChart.setVisibility(beerChart.indexFromSetName('state')-1, 0);  // turn off state line
-        var $chartContainer = $chartDiv.parent();
+        var $chartContainer = $chartDiv.parent().parent();
         $chartContainer.find('.beer-chart-controls').show();
 
         if(div.localeCompare('curr-beer-chart') === 0){
@@ -479,7 +479,7 @@ function toggleLine(el) {
 
 function updateVisibility(lineName, $button){
     "use strict";
-    var $chart = $button.closest('.chart-container').find('.beer-chart');
+    var $chart = $button.closest('.chart-container').closest('.col').find('.beer-chart');
     var chartId = $chart.attr('id');
     var chart;
     if(chartId.localeCompare('curr-beer-chart')===0){
