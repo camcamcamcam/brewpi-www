@@ -75,20 +75,20 @@ function prepareJSON($input) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	</head>
-	<body class="user-version">
+	<body>
 		<div id="beer-panel" class="ui-widget ui-widget-content ui-corner-all">
 			<?php
-				include 'beer-panel-user.php';
+				include 'beer-panel.php';
 			?>
 		</div>
 		<div id="control-panel" style="display:none"> <!--// hide while loading -->
 			<?php
-				include 'control-panel-user.php';
+				include 'control-panel.php';
 			?>
 		</div>
 		<div id="maintenance-panel" style="display:none"> <!--// hide while loading -->
 			<?php
-				include 'maintenance-panel-user.php';
+				include 'maintenance-panel.php';
 			?>
 		</div>
 		<!-- Load scripts after the body, so they don't block rendering of the page -->

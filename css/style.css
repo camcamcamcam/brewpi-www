@@ -182,6 +182,10 @@ button#maintenance{
 	border-radius: 2px;
 }
 
+.user-version .lcddisplay {
+	float: right;
+}
+
 .lcddisplay .lcd-text{
 	float:left;
 	margin: 5px 16px;
@@ -768,6 +772,7 @@ button.chart-error-refresh{
 #profileNameDate .profileTableValue { display: block; float: right; margin-right:5px; }
 
 #profileChartDiv { width: calc(100% - 108px); height: 280px; float: left; }
+.user-version #profileChartDiv { width: 100%; height: 280px; float: left; }
 
 #profileTableDiv { width: 100%; height: 280px; float: right; overflow: auto; }
 #profileTableDiv table {
