@@ -1,6 +1,6 @@
-## Readme
+## A Slightly Nicer BrewPi UI
 
-This fork of the BrewPi web interface removes any configuration options from the index.php file, so you can share the link with anyone who is interested in checking it out and mainting the normal functions in the admin.php page.
+This fork of the BrewPi UI removes any configuration options from the index.php file, so you can share the link with anyone who is interested in checking it out and mainting the normal functions in the admin.php page.
 
 There are also a few style and HTML tweaks to make the page responsive and look better on mobile.
 
@@ -10,8 +10,8 @@ The password protection sript lookings for the file 'users.php' in the includes 
 
 	<?php
 	
-	/$LOGIN_INFORMATION = array(
-	  'username1' => 'password1',
+	$LOGIN_INFORMATION = array(
+	'username1' => 'password1',
       'username2' => 'password2',
       'username3' => 'password3'
 	);
