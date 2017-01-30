@@ -1,3 +1,5 @@
+<?php require 'includes/password_protect.php'; ?>
+
 <?php
 /* Copyright 2012 BrewPi/Elco Jacobs.
  * This file is part of BrewPi.
