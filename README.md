@@ -6,7 +6,7 @@ There are also a few style and HTML tweaks to make the page responsive and look 
 
 ### Creaing New Users
 
-The password protection sript lookings for the file 'users.php' in the includes folder. Create that file, add this code to it and change it to use your username and password combonation. Can add as many users as you like if nessecary.
+The password protection script is looking for the file 'users.php' in the includes folder. Create that file, add this code to it and change it to use your username and password combonation. Can add as many users as you like if nessecary.
 
 	<?php
 	
